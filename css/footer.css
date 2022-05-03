@@ -1,0 +1,114 @@
+#footer {
+	margin-top: 3rem;
+}
+
+.footer__wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1rem;
+}
+
+/* --------------footer first------------ */
+.footer__first--bottom {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__social {
+	width: 8rem;
+	padding-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-right: 1rem;
+	margin-right: 1.5rem;
+}
+.footer__social i {
+	color: var(--darker-color);
+	font-size: 1rem;
+	padding: 0.4rem;
+}
+.footer__social i:hover {
+	color: var(--lightblue-color);
+}
+
+/* --------------footer second------------ */
+.footer__second {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.footer__second h3 {
+	color: var(--darker-color);
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+.footer__second p {
+	color: var(--likegray-color);
+	font-size: 0.7rem;
+	padding: 0.3rem;
+	cursor: pointer;
+}
+
+/* --------------footer third------------ */
+.footer__third {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.footer__third h3 {
+	color: var(--darker-color);
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+.footer__third p {
+	color: var(--likegray-color);
+	font-size: 0.7rem;
+	padding: 0.3rem;
+	cursor: pointer;
+}
+
+/* --------------footer fourth------------ */
+.footer__fourth {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.footer__fourth h3 {
+	color: var(--darker-color);
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+.footer__fourth p {
+	color: var(--likegray-color);
+	font-size: 0.7rem;
+	padding: 0.3rem;
+	cursor: pointer;
+}
+
+/* --------------footer last------------ */
+.footer__last {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.footer__last h3 {
+	color: var(--darker-color);
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+.footer__last p {
+	color: var(--likegray-color);
+	font-size: 0.7rem;
+	padding: 0.3rem;
+	cursor: pointer;
+}

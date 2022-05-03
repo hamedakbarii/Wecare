@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #e5f7ff;
+	--light-color: snow;
+	--dark-color: #323637;
+	--darker-color: #2b3949;
+	--secondary-color: #eff1e4;
+	--lightblue-color: #2372d1;
+	--likegray-color: #b2b2ae;
+}
+
+html {
+	font-size: 1.5rem;
+	font-family: "poppins", sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--light-color);
+}
+
+.btn {
+	background-color: var(--lightblue-color);
+	color: white;
+	padding: 0.5rem 1.5rem;
+	border-radius: 0.5rem;
+	border: none;
+	font-family: inherit;
+	font-size: 0.5rem;
+	box-shadow: 0;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--light-color);
+}
+
+.btn:hover a {
+	color: var(--dark-color);
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+}
+
+i {
+	color: var(--light-color);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+i:hover {
+	transform: scale(1.1);
+}
+
+/* // ------------- media - query ---------- */
+@media (max-width: 567px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.container {
+		width: 1320px;
+	}
+}

@@ -1,0 +1,71 @@
+header {
+	padding-top: 1.5rem;
+	background-color: var(--primary-color);
+	min-height: 20vh;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* -----------------nav-left----------------- */
+
+.nav__left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__left--left img {
+	width: 10rem;
+}
+
+.nav__left--left a {
+	color: var(--darker-color);
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.nav__left--right ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 2rem;
+}
+
+.nav__left--right ul li a {
+	color: var(--dark-color);
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	font-weight: 550;
+	transition: all 0.3s ease;
+}
+
+.nav__left--right ul li a:hover {
+	color: var(--likegray-color);
+}
+
+/* -----------------nav-right----------------- */
+
+.nav__right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__right a {
+	padding: 0.5rem;
+	color: var(--dark-color);
+	font-size: 0.8rem;
+	font-weight: 550;
+}
+
+.nav__right button {
+	padding: 0.5rem 0.7rem;
+}
+
+.nav__right button a {
+	color: var(--light-color);
+}

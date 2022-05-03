@@ -1,0 +1,183 @@
+#finder {
+	padding-top: 4rem;
+	min-height: 30vh;
+}
+
+.finder__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* --------------finde-left------------- */
+.finder__left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.finder__left h2 {
+	color: var(--darker-color);
+	font-size: 2.5rem;
+}
+.finder__left p {
+	color: var(--likegray-color);
+	font-size: 0.8rem;
+	padding-top: 1rem;
+}
+
+.finder__left--hospital {
+	padding-top: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.left__hospital--title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left__hospital--title i {
+	background-color: var(--secondary-color);
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	color: var(--likegray-color);
+	margin-right: 0.5rem;
+}
+.left__hospital--title h3 {
+	font-size: 1rem;
+	color: var(--dark-color);
+}
+
+.left__hospital--paragraph {
+	margin-top: 0.7rem;
+	padding: 1rem;
+	font-size: 0.8rem;
+	border-left: 2px solid var(--likegray-color);
+	border-radius: 0.3rem;
+	margin-left: 1rem;
+}
+
+.left__hospital--doctor {
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hospital__doctor--user {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 1.5rem;
+}
+
+.left__hospital--doctor h3 {
+	font-size: 1rem;
+	color: var(--dark-color);
+}
+
+.left__hospital--doctor i {
+	background-color: var(--secondary-color);
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	color: var(--likegray-color);
+	margin-right: 0.5rem;
+}
+
+.phone {
+	padding-right: 11.5rem;
+}
+
+/* --------------finde-right------------- */
+
+.finder__right {
+	position: relative;
+}
+
+.finder__right img {
+	width: 25rem;
+}
+
+.finder__right--box {
+	width: 10rem;
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--light-color);
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	position: absolute;
+	top: 15rem;
+	left: 0;
+}
+
+.finder__right--box h3 {
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	color: var(--darker-color);
+}
+
+.right__box--firstInput {
+	position: relative;
+}
+.right__box--firstInput i {
+	position: absolute;
+	color: var(--dark-color);
+	top: 3.1rem;
+	left: 0.7rem;
+}
+
+.right__box--firstInput input {
+	padding: 0.5rem;
+	background-color: transparent;
+	border-radius: 0.5rem;
+	margin: 0.3rem;
+	border: 2px solid var(--likegray-color);
+	padding-left: 1.3rem;
+}
+.right__box--secondInput {
+	position: relative;
+}
+.right__box--secondInput i {
+	position: absolute;
+	top: -1.6rem;
+	left: 0.6rem;
+	color: var(--dark-color);
+}
+.right__box--secondInput input {
+	padding: 0.5rem;
+	background-color: transparent;
+	border-radius: 0.5rem;
+	border: 2px solid var(--likegray-color);
+	margin: 0.3rem;
+	padding-left: 1.3rem;
+}
+
+.finder__right i {
+	padding-right: 0.6rem;
+	font-size: 0.8rem;
+}
+
+.finder__right button {
+	width: 9rem;
+	margin: 0.5rem;
+	font-size: 0.65rem;
+	font-weight: 550;
+}
+
+.finder__right button:hover {
+	color: var(--dark-color);
+	border: 1px solid var(--dark-color);
+}
+
+.finder__right button:hover i {
+	color: var(--dark-color);
+}
