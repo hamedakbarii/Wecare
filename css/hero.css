@@ -1,6 +1,6 @@
 #hero {
 	padding-top: 1rem;
-	height: 100vh;
+	/* min-height: 100vh; */
 	background-color: var(--primary-color);
 }
 
@@ -61,19 +61,17 @@
 	align-items: center;
 	font-size: 0.7rem;
 	font-weight: 550;
+	cursor: pointer;
 	transition: all 0.3s ease;
 }
 .left__cards--left:hover {
-	background-color: var(--light-color);
-}
-.left__cards--left:hover a {
-	color: var(--darker-color);
+	background-color: var(--lightblue-color);
 }
 
 .left__cards--left i {
 	padding: 0.3rem;
 	padding-right: 0.5rem;
-	color: #d5e360;
+	color: var(--light-color);
 }
 
 .left__cards--right {
@@ -88,22 +86,22 @@
 	align-items: center;
 	font-size: 0.7rem;
 	font-weight: 550;
+	cursor: pointer;
 	transition: all 0.3s ease;
 }
+
 .left__cards--right:hover {
-	background-color: var(--light-color);
+	background-color: var(--lightblue-color);
 }
-.left__cards--right:hover a {
-	color: var(--darker-color);
-}
+
 .left__cards--right i {
 	padding: 0.3rem;
-	color: #d5e360;
+	color: var(--light-color);
 }
 
 /* -------------------hero-down--------------- */
 .hero__down {
-	width: 85%;
+	width: 51rem;
 }
 
 .hero__searcBox {
@@ -126,13 +124,13 @@
 .searchBox__input--left i {
 	position: absolute;
 	color: var(--dark-color);
-	top: 0.9rem;
+	top: 1.3rem;
 	left: 0.5rem;
 }
 
 .searchBox__input--left input {
 	width: 20rem;
-	height: 2.5rem;
+	height: 2rem;
 	font-size: 0.7rem;
 	border: none;
 	border-radius: 0.5rem;
@@ -141,6 +139,8 @@
 	margin: 0.3rem;
 	padding-left: 1.5rem;
 }
+
+/* ---------------------------------------------------------------- */
 
 .searchBox__input--right {
 	display: flex;
@@ -153,13 +153,13 @@
 	position: absolute;
 	color: var(--dark-color);
 	background-color: unset;
-	top: 0.3rem;
+	top: 0.6rem;
 	left: 0.1rem;
 }
 
 .searchBox__input--right input {
 	width: 20rem;
-	height: 2.5rem;
+	height: 2rem;
 	font-size: 0.7rem;
 	border: none;
 	border-radius: 0.5rem;

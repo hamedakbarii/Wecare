@@ -1,12 +1,16 @@
 header {
-	padding-top: 1.5rem;
+	padding-top: 0.5rem;
 	background-color: var(--primary-color);
-	min-height: 20vh;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	border-bottom: 2px solid var(--secondary-color);
 }
 
 nav {
+	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -16,10 +20,11 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-left: 2rem;
 }
 
 .nav__left--left img {
-	width: 10rem;
+	width: 7rem;
 }
 
 .nav__left--left a {
@@ -40,11 +45,12 @@ nav {
 	padding: 0.5rem;
 	font-size: 0.8rem;
 	font-weight: 550;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 }
 
 .nav__left--right ul li a:hover {
-	color: var(--likegray-color);
+	color: var(--lightblue-color);
+	border-bottom: 3px solid var(--lightblue-color);
 }
 
 /* -----------------nav-right----------------- */
@@ -53,6 +59,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-right: 2rem;
 }
 
 .nav__right a {

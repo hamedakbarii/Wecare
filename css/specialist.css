@@ -1,6 +1,6 @@
 #specialist {
 	margin-top: 2rem;
-	min-height: 50vh;
+	/* min-height: 50vh; */
 }
 
 .specialist__wrapper h2 {
@@ -19,14 +19,13 @@
 	width: 80%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 1rem;
-	margin-left: 3rem;
+	gap: 1.5rem;
 	margin-top: 2rem;
+	margin-left: 4.5rem;
 }
 
 .specialist__item {
-	margin: 0.5rem;
-	width: 10rem;
+	width: 9rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -43,8 +42,8 @@
 }
 
 .specialist__item img {
-	width: 9rem;
-	height: 9rem;
+	width: 7rem;
+	height: 7rem;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
 	background-color: var(--secondary-color);
