@@ -1,9 +1,9 @@
 header {
 	padding-top: 0.5rem;
 	background-color: var(--primary-color);
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
-	z-index: 1;
+	/* z-index: 1; */
 	border-bottom: 2px solid var(--secondary-color);
 }
 
