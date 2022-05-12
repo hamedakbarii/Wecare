@@ -20,3 +20,12 @@ function topFunction() {
 }
 
 mybutton.addEventListener('click' , topFunction)
+
+
+
+
+
+
+
+// Hero bottom removeBtn for comments
+

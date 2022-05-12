@@ -1,5 +1,5 @@
 #finder {
-	padding-top: 4rem;
+	padding-top: 6rem;
 	min-height: 30vh;
 }
 
@@ -87,12 +87,15 @@
 	padding: 0.5rem;
 	border: none;
 	border-radius: 0.5rem;
-	color: var(--likegray-color);
-	margin-right: 0.5rem;
+	color: var(--lightblue-color);
+	margin-right: 1rem;
 }
 
 .phone {
-	padding-right: 11.5rem;
+	padding-right: 12.5rem;
+}
+.phone i {
+	color: green;
 }
 
 /* --------------finde-right------------- */
@@ -169,7 +172,7 @@
 .finder__right button {
 	width: 6rem;
 	margin: 0.5rem;
-	font-size: 0.65rem;
+	font-size: 0.6rem;
 	font-weight: 550;
 }
 

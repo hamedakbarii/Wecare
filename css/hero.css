@@ -1,6 +1,6 @@
 #hero {
 	padding-top: 1rem;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 	background-color: var(--primary-color);
 }
 
@@ -37,7 +37,7 @@
 }
 
 .hero__left p {
-	padding: 1rem;
+	padding-top: 1rem;
 	color: var(--likegray-color);
 	font-size: 0.7rem;
 	font-weight: 500;
@@ -45,14 +45,15 @@
 
 .hero__left--cards {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .left__cards--left {
 	width: 10rem;
 	background-color: var(--darker-color);
-	margin-right: 1rem;
+	margin-right: 0.5rem;
+	margin-top: 1rem;
 	padding: 0.5rem;
 	border: none;
 	border-radius: 0.5rem;
@@ -69,15 +70,15 @@
 }
 
 .left__cards--left i {
-	padding: 0.3rem;
 	padding-right: 0.5rem;
 	color: var(--light-color);
+	font-size: 0.9rem;
 }
 
 .left__cards--right {
 	width: 10rem;
+	margin-top: 1rem;
 	background-color: var(--darker-color);
-	margin-right: 1rem;
 	padding: 0.5rem;
 	border: none;
 	border-radius: 0.5rem;
@@ -96,15 +97,20 @@
 
 .left__cards--right i {
 	padding: 0.3rem;
+	padding-right: 0.7rem;
 	color: var(--light-color);
+	font-size: 0.9rem;
 }
 
 /* -------------------hero-down--------------- */
 .hero__down {
 	width: 51rem;
+	position: relative;
 }
 
 .hero__searcBox {
+	position: absolute;
+	top: -1rem;
 	background-color: var(--light-color);
 	padding: 0.5rem;
 	border-radius: 0.5rem;
@@ -125,7 +131,7 @@
 	position: absolute;
 	color: var(--dark-color);
 	top: 1.3rem;
-	left: 0.5rem;
+	left: 0.9rem;
 }
 
 .searchBox__input--left input {
@@ -137,7 +143,7 @@
 	background-color: var(--secondary-color);
 	padding: 0.5rem;
 	margin: 0.3rem;
-	padding-left: 1.5rem;
+	padding-left: 2rem;
 }
 
 /* ---------------------------------------------------------------- */
@@ -154,7 +160,7 @@
 	color: var(--dark-color);
 	background-color: unset;
 	top: 0.6rem;
-	left: 0.1rem;
+	left: 0.4rem;
 }
 
 .searchBox__input--right input {
@@ -166,7 +172,7 @@
 	background-color: var(--secondary-color);
 	padding: 0.5rem;
 	margin: 0.3rem;
-	padding-left: 1.5rem;
+	padding-left: 2rem;
 }
 .searchBox__input--right i {
 	padding: 0.7rem;
