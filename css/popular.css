@@ -38,12 +38,18 @@
 	padding: 0.5rem;
 	font-size: 0.7rem;
 	padding-right: 0.7rem;
+	transition: all 0.3s ease;
 }
 
-.popular__main--left .colored {
+.popular__main--left p:hover {
+	color: var(--darker-color);
+	border-bottom: 2px solid var(--lightblue-color);
+}
+
+/* .popular__main--left .colored {
 	color: var(--darker-color);
 	font-weight: 550;
-}
+} */
 
 .popular__main--right {
 	display: flex;
