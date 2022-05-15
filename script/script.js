@@ -28,4 +28,21 @@ mybutton.addEventListener('click' , topFunction)
 
 
 // Hero bottom removeBtn for comments
+const removeBtn = document.querySelectorAll('.removeBtn')
+const commentsItem = document.querySelectorAll('.down__comments--item')
 
+removeBtn.forEach(el => {
+
+  el.addEventListener('click', () => {
+
+    commentsItem.forEach(remove => {
+
+      remove.addEventListener('click', () => {
+        remove.remove()
+      })
+      
+    })
+
+  })
+  
+});
