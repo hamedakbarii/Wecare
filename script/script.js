@@ -46,3 +46,18 @@ removeBtn.forEach(el => {
   })
   
 });
+
+
+
+// popular section select tabs
+const $p = document.querySelectorAll('.pop');
+
+$p.forEach((e) => {
+  e.addEventListener('click', () => {
+    
+         for (i = 0; i < $p.length; i++){
+            $p[i].classList.remove('colored')
+        }
+    e.classList.add('colored');
+  })
+})

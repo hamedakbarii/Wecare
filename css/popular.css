@@ -41,9 +41,14 @@
 	transition: all 0.3s ease;
 }
 
+.popular__main--left .colored {
+	color: var(--darker-color);
+	border-bottom: 1px solid var(--lightblue-color);
+}
+
 .popular__main--left p:hover {
 	color: var(--darker-color);
-	border-bottom: 2px solid var(--lightblue-color);
+	/* border-bottom: 2px solid var(--lightblue-color); */
 }
 
 /* .popular__main--left .colored {
